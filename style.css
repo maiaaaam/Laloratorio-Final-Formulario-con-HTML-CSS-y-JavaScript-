@@ -1,0 +1,89 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 50;
+	font-family: Trebuchet MS;
+	background-color: #84CEEB;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+
+#main-event{
+	width: 25%;
+	height: 85%;
+	align-items: center;
+	justify-content: center;
+	background-color: #5680E9;
+	border-style: solid;
+	border-color: #5AB9EA;
+	border-width: 1px;
+	border-radius: 3px;
+}
+#login-info{
+	display: grid;
+	position: relative;
+	left: 20px;
+	top: 9%;	
+}
+
+.login-square{
+	border-radius: 2px;
+	border: none;
+	margin-bottom: 7px;
+	width: 81%;
+	padding: 10px;
+	display: block;
+
+
+}
+
+#login-submit{
+	width: 87%;
+	border-color: #5AB9EA;
+	background-color: #8860D0; 
+	border-width: 1px;
+	color: #E3E2DF;
+	border-radius: 2px;
+	cursor: pointer;
+	padding: 10px;
+
+}	
+
+#form-header{
+	color: white;
+	position: relative;
+	left: 20px;
+	top: 5%;
+	font-size: 150%;
+}
+
+div{
+	font-size: 80%;
+	position: relative;
+	top: -35%;
+	color: #E3E2DF;
+}
+
+.error-text{
+  	color: #ED4337;
+  	font-size: 12px;
+  	margin-left: 1px;
+	top: 4px;
+
+}
+
+input:invalid {
+	border: 2px solid red;
+	background: white url("file:///C:/Users/oumai/Desktop/SAMSUNG%20dev/2/final%20lab/error-icon.svg") right no-repeat;
+	
+}
+
+input:valid {
+	border: 2px solid green;
+	background: white url("file:///C:/Users/oumai/Desktop/SAMSUNG%20dev/2/final%20lab/success-icon.svg") right no-repeat;
+	
+}

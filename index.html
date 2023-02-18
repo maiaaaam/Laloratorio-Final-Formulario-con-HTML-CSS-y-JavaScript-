@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="error"></div>
+<main id="main-event">
+	<header id="form-header">Create Account</header>
+	<form id="login-info"><br>
+	  <div>Nombre</div>
+	  	<input type="text" id="nombre" name="nombre" class="login-square" required>
+		<div class="error-area">
+	  		<div class="error-text">Rellene este campo</div><br>
+		</div>
+	  <div>Email</div>
+	  	<input type="email" id="email" name="email" class="login-square" required>
+		<div class="error-area">
+	  		<div class="error-text">Rellene este campo</div><br>
+		</div> 
+	  <div>Clave</div>
+	  	<input type="password" id="password" name="password" class="login-square" minlength="4" maxlength="8" required>
+	  	<div class="error-area">
+	  		<div class="error-text">Rellene este campo</div><br>
+		</div>
+	  <div>Confirme su clave</div>
+	  	<input type="password" id="confirm" name="confirmation" class="login-square" maxlength="8" required>
+	  	<div class="error-area">
+	  		<div class="error-text">Rellene este campo</div><br>
+		</div>
+	  <button type="submit" id="login-submit">"ENVIAR"</button>
+	</form>
+	<script src="indext.js"></script>
+</main>
+
+
+</body>
+</html>
